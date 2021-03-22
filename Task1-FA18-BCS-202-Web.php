@@ -1,1 +1,1 @@
-<?php include("./Quiz1-FA18-BCS-202.html") ?>
+<?php include("./index.html") ?>
