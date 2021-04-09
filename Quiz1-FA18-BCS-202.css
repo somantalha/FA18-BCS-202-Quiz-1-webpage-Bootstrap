@@ -10,51 +10,184 @@
   height: 560px;
   margin-left: 2px;
   padding-left: 4px;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
   padding-top: 2px;
-  
 }
 .navbar-default {
-    background:transparent;
+  background: transparent;
 }
-#white{
+#white {
+  color: whitesmoke;
+}
+#white strong {
+  color: whitesmoke;
+  font-size: 1.15rem;
+}
+#white:hover {
+  color: whitesmoke;
+}
+.clr {
+  color: rgb(231, 230, 230);
+}
+.clr:hover {
+  color: rgb(101, 175, 209);
+}
+.text {
+  position: absolute;
+  top: 18%;
+  padding-left: 13px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(160, 28, 28);
+}
+.size {
+  font-size: 1rem;
+  color: rgb(124, 60, 60);
+  top: 30%;
+  padding-left: 15px;
+}
+div h1 {
+  font-weight: bold;
+  color: black;
+  padding-top: 70px;
+}
+#imgsize {
+  height: 400px;
+}
+.ims {
+  width: 360px;
+}
+#btn {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-bottom: 50px;
+}
+
+#btn:hover {
+  background-color: #f1f1f1;
+}
+.centertext {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(34, 33, 33);
+  height: 600px;
+  color: rgba(255, 255, 255, 0.877);
+}
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: rgb(194, 186, 186);
+}
+
+/* Twitter */
+.fa-twitter {
+  color: rgb(194, 186, 186);
+}
+.fa-instagram {
+  color: rgb(194, 186, 186);
+}
+
+.text-uppercase {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+#fclr {
+  color: rgb(148, 144, 144);
+  font-size: 15px;
+}
+#tclr {
+  color: rgb(148, 144, 144);
+  font-size: 15px;
+}
+#fclr:hover {
+  color: rgb(221, 217, 217);
+  font-size: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  #top img {
+    position: relative;
+    z-index: -1;
+    display: block;
+    width: 1340px;
+    height: 560px;
+    margin-left: 2px;
+    padding-left: 4px;
+    padding-bottom: 50px;
+    padding-top: 2px;
+  }
+  .navbar-default {
+    background: transparent;
+  }
+  #white {
     color: whitesmoke;
-}
-#white strong{
+  }
+  #white strong {
     color: whitesmoke;
     font-size: 1.15rem;
-}
-#white:hover{
+  }
+  #white:hover {
     color: whitesmoke;
-}
-.clr {color: rgb(231, 230, 230);}
-.clr:hover {color: rgb(101, 175, 209);}
-.text {
+  }
+  .clr {
+    color: rgb(231, 230, 230);
+  }
+  .clr:hover {
+    color: rgb(101, 175, 209);
+  }
+  .text {
     position: absolute;
-    top:18%;
+    top: 18%;
     padding-left: 13px;
-    font-size: 1.50rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: rgb(160, 28, 28);
-    
   }
   .size {
     font-size: 1rem;
     color: rgb(124, 60, 60);
     top: 30%;
     padding-left: 15px;
-    
   }
-  div h1{
-      font-weight:bold;
-      color: black;
-      padding-top: 70px;
+  div h1 {
+    font-weight: bold;
+    color: black;
+    padding-top: 70px;
   }
-  #imgsize{
+  #imgsize {
     height: 400px;
   }
-  .ims{
-      width: 360px;
+  .ims {
+    width: 360px;
   }
   #btn {
     background-color: #ddd;
@@ -69,226 +202,45 @@
     border-radius: 16px;
     margin-bottom: 50px;
   }
-  
+
   #btn:hover {
     background-color: #f1f1f1;
   }
-.centertext {
+  .centertext {
     text-align: center;
-  
-}
-footer {
-    text-align: center;
-    padding: 3px;
-    background-color: rgb(10, 10, 10);
-    height: 400px;
-    color: rgba(255, 255, 255, 0.877);
-  }
-
-#menu ul li:hover {
-  
-}
-
-#menu ul {
-  
-}
-#menu strong {
-  
-}
-.col {
-
-}
-
-.text {
-  
-}
-.size {
-  
-}
-.row::after {
-
-}
-h1 {
-  
-}
-ul {
-
-}
-ul li {
-
-  
-}
-ul li:hover {
-
-}
-
-.tsize img {
-
-}
-.below {
-
-}
-.container {
-
-}
-.gallery {
-
-}
-.gallery img {
-
-}
-footer {
-
-}
-
-.columnfooter {
-
-}
-
-/* Clear floats after the columns */
-.rowfooter:after {
-
-}
-
-/* @media screen and (max-width: 500px) {
-  * {
-    box-sizing: border-box;
-  }
-
-  #top img {
-    position: relative;
-    z-index: -1;
-    display: block;
-    width: 485px;
-    height: 250px;
-  }
-  #menu {
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    color: white;
-  }
-  #menu ul li {
-    font-size: 20px;
-    margin-left: 10px;
-    display: inline;
-    padding: 4px;
-  }
-  #menu ul li:hover {
-    color: rgb(94, 209, 230);
-  }
-
-  #menu ul {
-    list-style-type: none;
-  }
-  #menu strong {
-    font-weight: bold;
-    font-size: 2rem;
-  }
-  .col {
-    position: relative;
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    margin-top: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-
-  .text {
-    position: absolute;
-    top: 20%;
-    padding-left: 13px;
-    font-size: 1.75rem;
-    font-weight: bold;
-    color: rgb(160, 28, 28);
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
-  .size {
-    font-size: 1rem;
-    color: rgb(124, 60, 60);
-    top: 30%;
-    padding-left: 15px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
-  .row::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  h1 {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    margin-left: 30px;
-  }
-  ul {
-    list-style-type: none;
-  }
-  ul li {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    margin-left: 8px;
-    display: inline;
-    padding: 5px;
-    color: rgb(255, 255, 255);
-  }
-  ul li:hover {
-    text-decoration: underline;
-    color: black;
-  }
-
-  .tsize img {
-    position: relative;
-    float: left;
-    width: 250px;
-    height: 450px;
-    margin-bottom: 20px;
-  }
-  .below {
-    font-size: 1rem;
-    padding: 15px;
-    margin-left: 15px;
-    text-align: left;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
-  .container {
-    width: 1200px;
-    margin: auto;
-    overflow: auto;
-  }
-  .gallery {
-    margin: auto;
-    border: 1px transparent;
-    float: left;
-    width: 33.33%;
-  }
-  .gallery img {
-    width: 250px;
-    height: 400px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   footer {
     text-align: center;
     padding: 3px;
-    background-color: black;
-    height: 400px;
-    color: white;
+    background-color: rgb(34, 33, 33);
+    height: 600px;
+    color: rgba(255, 255, 255, 0.877);
+  }
+  .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
   }
 
-  .columnfooter {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
   }
 
-  /* Clear floats after the columns */
-  /* .rowfooter:after {
-    content: "";
-    display: table;
-    clear: both;
+  /* Set a specific color for each brand */
+
+  /* Facebook */
+  .fa-facebook {
+    color: rgb(194, 186, 186);
   }
-} */ 
+
+  /* Twitter */
+  .fa-twitter {
+    color: rgb(194, 186, 186);
+  }
+  .fa-instagram {
+    color: rgb(194, 186, 186);
+  }
+}
